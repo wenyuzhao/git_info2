@@ -1,7 +1,7 @@
-use git_info;
+use git_info2;
 
 fn main() {
-    let info = git_info::get();
+    let info = git_info2::get();
 
     println!(
         "User Name: {}",

@@ -1,13 +1,16 @@
 [package]
-name = "git_info"
+name = "git_info2"
 version = "0.1.2"
-authors = ["Sagie Gur-Ari <sagiegurari@gmail.com>"]
+authors = [
+  "Sagie Gur-Ari <sagiegurari@gmail.com>",
+  "Wenyu Zhao <wenyuzhaox@gmail.com>",
+]
 description = "Extracts git repository information."
 license = "Apache-2.0"
 edition = "2021"
-documentation = "https://sagiegurari.github.io/git_info/api/git_info/index.html"
-homepage = "http://github.com/sagiegurari/git_info"
-repository = "https://github.com/sagiegurari/git_info.git"
+documentation = "https://docs.rs/git_info2"
+homepage = "http://github.com/wenyuzhao/git_info2"
+repository = "https://github.com/wenyuzhao/git_info2.git"
 readme = "README.md"
 keywords = ["environment", "build"]
 categories = ["development-tools", "development-tools::build-utils"]
@@ -25,8 +28,3 @@ include = [
 
 [dev-dependencies]
 doc-comment = "^0.3"
-
-[badges.codecov]
-branch = "master"
-repository = "sagiegurari/git_info"
-service = "github"

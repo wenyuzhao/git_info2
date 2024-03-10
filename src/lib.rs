@@ -116,7 +116,6 @@
     soft_unstable,
     special_module_name,
     stable_features,
-    static_mut_ref,
     suspicious_auto_trait_impls,
     suspicious_double_ref_op,
     temporary_cstring_as_ptr,
@@ -200,7 +199,7 @@
 //!
 //! ```
 //! fn main() {
-//!     let info = git_info::get();
+//!     let info = git_info2::get();
 //!
 //!     println!("User Name: {}", info.user_name.unwrap_or("Unknown".to_string()));
 //!     println!("User Email: {}", info.user_email.unwrap_or("Unknown".to_string()));
@@ -247,7 +246,7 @@ use crate::types::GitInfo;
 ///
 /// ```
 /// fn main() {
-///     let info = git_info::get();
+///     let info = git_info2::get();
 ///
 ///     println!("User Name: {}", info.user_name.unwrap_or("Unknown".to_string()));
 ///     println!("User Email: {}", info.user_email.unwrap_or("Unknown".to_string()));

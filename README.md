@@ -6,6 +6,8 @@
 
 > Extracts git repository information.
 
+_Forked from [sagiegurari/git_info](https://github.com/sagiegurari/git_info)._
+
 * [Overview](#overview)
 * [Usage](#usage)
 * [Installation](#installation)
@@ -25,7 +27,7 @@ Simply include the library and invoke the get function to pull all info as follo
 <!--{ "examples/example.rs" | lines: 3 | code: rust }-->
 ```rust
 fn main() {
-    let info = git_info::get();
+    let info = git_info2::get();
 
     println!(
         "User Name: {}",
